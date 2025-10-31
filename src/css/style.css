@@ -16,3 +16,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+.container {
+  position: relative;
+  width: 100%;
+}
