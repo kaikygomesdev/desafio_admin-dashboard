@@ -82,3 +82,8 @@ body {
   text-align: start;
   white-space: nowrap;
 }
+
+/* curve outside */
+
+.navigation ul li:hover a:before {
+}
