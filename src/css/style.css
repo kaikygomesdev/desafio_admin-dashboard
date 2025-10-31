@@ -55,3 +55,6 @@ body {
   text-decoration: none;
   color: var(--white);
 }
+.navigation ul li:hover a {
+  color: var(--blue);
+}
