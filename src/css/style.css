@@ -57,8 +57,7 @@ body {
   text-decoration: none;
   color: var(--white);
 }
-.navigation ul li:hover a 
-.navigation ul li.hovered a {
+.navigation ul li:hover a .navigation ul li.hovered a {
   color: var(--blue);
 }
 .navigation ul li a .icon {
@@ -110,4 +109,14 @@ body {
   border-radius: 50%;
   box-shadow: 35px 35px 0 10px var(--white);
   pointer-events: none;
+}
+
+/* main */
+.main {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  min-height: 100vh;
+  background: var(--white);
+  transition: 0.5s;
 }
